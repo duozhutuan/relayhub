@@ -72,3 +72,6 @@ relaysOnPlatform = relaysOnPlatform.map(relay => hub + relay );
 export default relaysOnPlatform;
 
 ```
+
+# add nodejs version relay_hub.js
+You can integrate the relay_hub.js version of the code into your project. If the user fails to connect to the relay server, you can use your hub to retry the connection test.

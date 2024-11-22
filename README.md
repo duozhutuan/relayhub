@@ -75,3 +75,12 @@ export default relaysOnPlatform;
 
 # add nodejs version relay_hub.js
 You can integrate the relay_hub.js version of the code into your project. If the user fails to connect to the relay server, you can use your hub to retry the connection test.
+
+
+# There is a bug in the Python relay_hub.py when running NKD.I recommend using relay_hub.js instead.
+```
+npm install
+npm install -g forever
+forever start relay_hub.js
+```
+
